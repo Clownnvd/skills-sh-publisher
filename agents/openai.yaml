@@ -1,0 +1,9 @@
+interface:
+  display_name: "Skills.sh Publisher"
+  short_description: "Package, publish, and verify agent skills"
+  icon_small: "./assets/skills-sh-publisher-icon.svg"
+  icon_large: "./assets/skills-sh-publisher-banner.svg"
+  brand_color: "#22C55E"
+  default_prompt: "Use $skills-sh-publisher to package and publish this agent skill to skills.sh with release checks."
+policy:
+  allow_implicit_invocation: true
